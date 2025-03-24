@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent : #591ddd;
+  --color-accent_secondary:#8728e1;
+}
+
+
+
+body {
+  @apply text-white
+}
+
+.h2{
+  @apply text-5xl font-semibold
+}
+
+.lead{
+  @apply text-lg font-light text-white/80
+}
